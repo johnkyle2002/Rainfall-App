@@ -1,0 +1,6 @@
+@Rainfall.StationApi_HostAddress = http://localhost:5200
+
+GET {{Rainfall.StationApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
