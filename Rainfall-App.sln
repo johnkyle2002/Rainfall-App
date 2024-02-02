@@ -7,6 +7,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rainfall.StationApi", "Services\Rainfall.StationApi\Rainfall.StationApi.csproj", "{7254F583-849F-4D8E-8E3D-B165A7A9CEF2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastruture", "Infrastruture", "{724E5204-1639-4A41-AF71-E5AFF7922ACA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rainfall.StationApiRepository", "Infrastructure\Repositories\Rainfall.StationApiRepository\Rainfall.StationApiRepository.csproj", "{ED801342-7A22-49EF-956B-4CADE321A6CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{D7D25521-42EC-4293-A66D-D558A1C25E29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D1DC57C9-4220-4BFE-AC9E-CDFB45D4047A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rainfall.DataTransferObject", "Infrastructure\Domain\Rainfall.DataTransferObject\Rainfall.DataTransferObject.csproj", "{2D45E1CE-866E-42E2-839C-5E62F6758BEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rainfall.Data", "Infrastructure\Domain\Rainfall.Data\Rainfall.Data.csproj", "{F890D188-EC19-4844-9081-E28F570E6ED9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +29,29 @@ Global
 		{7254F583-849F-4D8E-8E3D-B165A7A9CEF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7254F583-849F-4D8E-8E3D-B165A7A9CEF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7254F583-849F-4D8E-8E3D-B165A7A9CEF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED801342-7A22-49EF-956B-4CADE321A6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED801342-7A22-49EF-956B-4CADE321A6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED801342-7A22-49EF-956B-4CADE321A6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED801342-7A22-49EF-956B-4CADE321A6CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D45E1CE-866E-42E2-839C-5E62F6758BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D45E1CE-866E-42E2-839C-5E62F6758BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D45E1CE-866E-42E2-839C-5E62F6758BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D45E1CE-866E-42E2-839C-5E62F6758BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F890D188-EC19-4844-9081-E28F570E6ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F890D188-EC19-4844-9081-E28F570E6ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F890D188-EC19-4844-9081-E28F570E6ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F890D188-EC19-4844-9081-E28F570E6ED9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7254F583-849F-4D8E-8E3D-B165A7A9CEF2} = {B7F86F46-C559-4949-8505-E33534B26100}
+		{ED801342-7A22-49EF-956B-4CADE321A6CD} = {D7D25521-42EC-4293-A66D-D558A1C25E29}
+		{D7D25521-42EC-4293-A66D-D558A1C25E29} = {724E5204-1639-4A41-AF71-E5AFF7922ACA}
+		{D1DC57C9-4220-4BFE-AC9E-CDFB45D4047A} = {724E5204-1639-4A41-AF71-E5AFF7922ACA}
+		{2D45E1CE-866E-42E2-839C-5E62F6758BEC} = {D1DC57C9-4220-4BFE-AC9E-CDFB45D4047A}
+		{F890D188-EC19-4844-9081-E28F570E6ED9} = {D1DC57C9-4220-4BFE-AC9E-CDFB45D4047A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CDEA861D-6BDB-47DD-B88D-DADEC441A4A3}
