@@ -13,7 +13,7 @@ namespace Rainfall.DataTransferObject.Request
         /// <summary>
         /// station ID
         /// </summary>
-        [RegularExpression("[0-9a-zA-Z]")]
+        [RegularExpression("[0-9a-zA-Z]*")]
         [SwaggerParameter(Description = "The id of the reading station.", Required = true)]
         public required string stationId { get; set; }
 

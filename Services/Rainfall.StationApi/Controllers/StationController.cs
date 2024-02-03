@@ -37,7 +37,6 @@ namespace Rainfall.StationApi.Controllers
         [SwaggerResponse(statusCode: 400, description: "Invalid request",  ContentTypes = new string[] { "application/json" })]
         [SwaggerResponse(statusCode: 404, description: "No readings found for the specified stationId", Type = typeof(IEnumerable<StationResponse>), ContentTypes = new string[] { "application/json" })]
         [SwaggerResponse(statusCode: 500, description: "Internal server error", ContentTypes = new string[] { "application/json" })]
-
         public async Task<IActionResult> GetStationReadingAsync(StationRequestDto request)
         {
             var data = await _stationService.GetStationReadingAsync(request.stationId, request.Count);
