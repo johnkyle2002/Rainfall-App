@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rainfall.DataTransferObject
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rainfall.Data", "Infrastructure\Domain\Rainfall.Data\Rainfall.Data.csproj", "{F890D188-EC19-4844-9081-E28F570E6ED9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainfall.ApiHelper", "Infrastructure\Domain\Rainfall.ApiHelper\Rainfall.ApiHelper.csproj", "{755918EA-C2A0-446D-A086-5E5F93861541}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{F890D188-EC19-4844-9081-E28F570E6ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F890D188-EC19-4844-9081-E28F570E6ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F890D188-EC19-4844-9081-E28F570E6ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755918EA-C2A0-446D-A086-5E5F93861541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755918EA-C2A0-446D-A086-5E5F93861541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755918EA-C2A0-446D-A086-5E5F93861541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755918EA-C2A0-446D-A086-5E5F93861541}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{D1DC57C9-4220-4BFE-AC9E-CDFB45D4047A} = {724E5204-1639-4A41-AF71-E5AFF7922ACA}
 		{2D45E1CE-866E-42E2-839C-5E62F6758BEC} = {D1DC57C9-4220-4BFE-AC9E-CDFB45D4047A}
 		{F890D188-EC19-4844-9081-E28F570E6ED9} = {D1DC57C9-4220-4BFE-AC9E-CDFB45D4047A}
+		{755918EA-C2A0-446D-A086-5E5F93861541} = {D1DC57C9-4220-4BFE-AC9E-CDFB45D4047A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CDEA861D-6BDB-47DD-B88D-DADEC441A4A3}

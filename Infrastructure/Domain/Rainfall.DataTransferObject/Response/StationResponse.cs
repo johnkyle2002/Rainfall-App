@@ -8,6 +8,6 @@ namespace Rainfall.DataTransferObject.Response
         public string? DateMeasured { get; set; }
 
         [JsonProperty("amountMeasured")]
-        public decimal AmountMeasured { get; set; }
+        public decimal? AmountMeasured { get; set; }
     }
 }

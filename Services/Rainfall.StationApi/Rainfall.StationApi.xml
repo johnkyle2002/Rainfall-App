@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Rainfall.StationApi</name>
+    </assembly>
+    <members>
+        <member name="T:Rainfall.StationApi.Config.Domain">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Rainfall.StationApi.Config.Domain.#ctor(Microsoft.Extensions.Options.IOptions{Rainfall.DataTransferObject.RainfallAppOptionDto})">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:Rainfall.StationApi.Config.Domain.Header">
+            <summary>
+            Default value for credential and other reuqirement for http header
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Rainfall.StationApi.Config.Domain.BaseUrl">
+            <summary>
+            Get rainfall base url from appsettings
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Rainfall.StationApi.Controllers.StationController">
+            <summary>
+            Station Controller
+            </summary>
+        </member>
+        <member name="M:Rainfall.StationApi.Controllers.StationController.#ctor(Rainfall.StationApi.Service.IStationService)">
+            <summary>
+            Station Constructor
+            </summary>
+        </member>
+        <member name="M:Rainfall.StationApi.Controllers.StationController.GetStationReadingAsync(Rainfall.DataTransferObject.Request.StationRequestDto)">
+            <summary>
+            Operations relating to rainfall
+            </summary>
+            <param name="request">Object request parameter</param>
+            <returns></returns>
+        </member>
+        <member name="T:Rainfall.StationApi.Program">
+            <summary>
+            Program 
+            </summary>
+        </member>
+        <member name="M:Rainfall.StationApi.Program.Main(System.String[])">
+            <summary>
+            program startup
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:Rainfall.StationApi.Service.StationService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Rainfall.StationApi.Service.StationService.#ctor(Rainfall.StationApiRepository.Interface.IStationRepositories)">
+            <summary>
+            
+            </summary>
+            <param name="stationRepositories"></param>
+        </member>
+        <member name="M:Rainfall.StationApi.Service.StationService.GetStationReadingAsync(System.String,System.Int32)">
+            <summary>
+            assosiated with https://environment.data.gov.uk/flood-monitoring/id/stations/{stationId}/readings
+            </summary>
+            <param name="stationId"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
